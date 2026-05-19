@@ -56,4 +56,24 @@ Help in coding the views based logic easier.
             insets
         }
 # Next is Dash Board activity UI
+- In the dash board at top we create a Search Bar and settings button. so we edited the make it look good.
+- We added another liner horizontal layout for the search bar and the settings icon which needs to placed horizontally side by side.
+- We used drawable xml to create objects which acts background and make corner and in this example we made it by making it for bell icon and setting icon background and also for search bar another brawable file.
+- Intersting the bell icon and the settings icon are not buttons but image view.
+- Next we added the Constraint Layout below the linear horizontal layout and inside the liner vertical layout parent.
+- We added a image view and adjusted its size and scale.
+- We create a Progress bar in the center and made another text view in the linear vertical layout parent.
+- Added Text and change its attributes
+- Another Contraint layout is added below in the linear vertical layout parent.
+- Then we added a recyclerView to make a list of items.
+- We make another linear horizontal layout in the parent vertical layout.
+- Then we added a text view "Popular coffee".
+- Then we made a nestScrollView from normal scroll view.
+- Then we made a bottom navigation bar using coordinate layout and inside we used a naviagtion layout and then a linear horizontal and then linear vertical for all the icons and their names and made multiple coppies and changed the name of the images and there text.
 
+# Banner in Dash Board
+- So we a added a banner picture into our firebase cloud and to reterive it we need to call the file from the firebase into our app attribute.
+- So how to do it?
+    - We create a new packages name Activity( MainActivity.kt,SplashActivity.kt), Domain( BannerModel.kt) , Repository( MainRepository.kt), ViewModel(MainModelView.kt)
+    inside the com.hanoch.coffe_shop
+- I will try to explain the code in to .kt files.

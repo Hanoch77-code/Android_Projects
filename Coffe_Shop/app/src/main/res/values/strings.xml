@@ -3,4 +3,14 @@
     <string name="choose_your_favorite_coffee">Choose your Favorite Coffee</string>
     <string name="get_started">Get Started</string>
     <string name="tina_anderson">Tina Anderson</string>
+    <string name="search">Search</string>
+    <string name="category">Category</string>
+    <string name="see_all">See All</string>
+    <string name="popular_coffee">Popular Coffee</string>
+    <string name="explorer">Explorer</string>
+    <string name="cart">Cart</string>
+    <string name="wish_list">Wish List</string>
+    <string name="wishlist">WishList</string>
+    <string name="my_order">My Order</string>
+    <string name="profile">Profile</string>
 </resources>
