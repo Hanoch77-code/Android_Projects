@@ -15,6 +15,9 @@ fun main()
     // to print a variable use $<variable_name> to print the variable.
     println("Hello $userName, your age is $age")
 
+
+    // Keyword val is used to create a constant values, assigned at the starting of the program
+    // Val is VALUE i.e, Read-Only
     val name : String = "Hanoch"
     //We cannot change the value of the val variables they are constant
     //name = "Gandam" //uncomment it to verify
